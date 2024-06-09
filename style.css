@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: #ac201b;
+}
+
+.top-div{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    border-bottom: solid black;
+    background-image: url(img/full-shot-ninja-wearing-equipment.jpg);
+    color: #f7b783;
+    background-size: 100%;
+}
+
+.main-title{
+    padding-top: 150px;
+    font-size: 80px;
+    -webkit-text-stroke: 2px black;
+}
+
+.subtitle{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    border-bottom: solid black;
+    padding-left: 10px;
+    color: #f7b783;
+}
+
+.script-div{
+    background-color: aqua;
+    height: 100vh;
+}
+.main-div-title{
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.main-div-text{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
